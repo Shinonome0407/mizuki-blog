@@ -119,10 +119,10 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/src/assets/images/v2-f872418473203112ce49cc37681557e8_1440w.jpg",
+				"/images/v2-f872418473203112ce49cc37681557e8_1440w.jpg",
 			], // 桌面横幅图片
 			mobile: [
-				"/src/assets/images/v2-f872418473203112ce49cc37681557e8_1440w.jpg",
+				"/images/v2-f872418473203112ce49cc37681557e8_1440w.jpg",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -348,7 +348,7 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "/src/assets/images/0c05706c7444a4460bce099476dfd5c3.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "/images/0c05706c7444a4460bce099476dfd5c3.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "東雲佑樹",
 	bio: "你要了解哪个层面的我?",
 	typewriter: {
