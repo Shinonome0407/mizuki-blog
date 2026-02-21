@@ -270,17 +270,17 @@ export const navBarConfig: NavBarConfig = {
 					icon: "fa7-brands:bilibili",
 				},
 				{
-					name: "Gitee",
-					url: "https://gitee.com/matsuzakayuki/Mizuki",
-					external: true,
-					icon: "mdi:git",
-				},
-				{
 					name: "Zhihu",
 					url: "https://www.zhihu.com/people/zhong-er-yan-wan-qi-3",
 					external: true,
 					icon: "simple-icons:zhihu",
-				  },
+				},
+				{
+					name: "Bangumi",
+					icon: "simple-icons:bangumi",
+					external: true,
+					url: "https://bangumi.tv/user/628509",
+				},
 			],
 		},
 		{
@@ -368,24 +368,19 @@ export const profileConfig: ProfileConfig = {
 			url: "https://space.bilibili.com/1292566364",
 		},
 		{
-			name: "Gitee",
-			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
-		},
-		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
 			url: "https://github.com/Shinonome0407/mizuki-blog",
 		},
 		{
-			name: "Codeberg",
-			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
+			name: "Zhihu",
+			url: "https://www.zhihu.com/people/zhong-er-yan-wan-qi-3",
+			icon: "simple-icons:zhihu",
 		},
 		{
-			name: "Discord",
-			icon: "fa7-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			name: "Bangumi",
+			icon: "simple-icons:bangumi",
+			url: "https://bangumi.tv/user/628509",
 		},
 	],
 };
