@@ -277,9 +277,9 @@ export const navBarConfig: NavBarConfig = {
 				},
 				{
 					name: "Bangumi",
+					url: "https://bangumi.tv/user/628509",
 					icon: "simple-icons:bangumi",
 					external: true,
-					url: "https://bangumi.tv/user/628509",
 				},
 			],
 		},
@@ -374,8 +374,8 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "Zhihu",
-			url: "https://www.zhihu.com/people/zhong-er-yan-wan-qi-3",
 			icon: "simple-icons:zhihu",
+			url: "https://www.zhihu.com/people/zhong-er-yan-wan-qi-3",
 		},
 		{
 			name: "Bangumi",
