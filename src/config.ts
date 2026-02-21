@@ -259,13 +259,13 @@ export const navBarConfig: NavBarConfig = {
 			children: [
 				{
 					name: "GitHub",
-					url: "https://github.com/matsuzaka-yuki/Mizuki",
+					url: "https://github.com/Shinonome0407/mizuki-blog",
 					external: true,
 					icon: "fa7-brands:github",
 				},
 				{
 					name: "Bilibili",
-					url: "https://space.bilibili.com/701864046",
+					url: "https://space.bilibili.com/1292566364",
 					external: true,
 					icon: "fa7-brands:bilibili",
 				},
@@ -275,6 +275,12 @@ export const navBarConfig: NavBarConfig = {
 					external: true,
 					icon: "mdi:git",
 				},
+				{
+					name: "Zhihu",
+					url: "https://www.zhihu.com/people/zhong-er-yan-wan-qi-3",
+					external: true,
+					icon: "simple-icons:zhihu",
+				  },
 			],
 		},
 		{
@@ -359,7 +365,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibili",
 			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/1292566364",
 		},
 		{
 			name: "Gitee",
@@ -369,7 +375,7 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/Shinonome0407/mizuki-blog",
 		},
 		{
 			name: "Codeberg",
