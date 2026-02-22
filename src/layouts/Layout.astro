@@ -1,4 +1,5 @@
 ---
+import Analytics from "@vercel/analytics/astro";
 import ConfigCarrier from "@components/ConfigCarrier.astro";
 import MusicPlayer from "@components/widget/MusicPlayer.svelte";
 import Pio from "@components/widget/Pio.svelte"; // 使用 Svelte 版本的 Pio 组件
@@ -373,6 +374,8 @@ if (siteConfig.font) {
 			title={profileConfig.name}
 			href={`${Astro.site}rss.xml`}
 		/>
+
+		<Analytics />
 		
 	</head>
 	<body
@@ -1002,7 +1005,7 @@ function disableAnimation() {
 					}, 100);
 				}
 
-				// 重新初始化移动端 TOC 组件
+				// 重新初始���移动端 TOC 组件
 				if (typeof (window as any).mobileTOCInit === "function") {
 					setTimeout(() => {
 						(window as any).mobileTOCInit();
